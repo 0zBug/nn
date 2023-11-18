@@ -22,7 +22,7 @@ function BaseMap.new(Map)
 	repeat 
 		Max = Max + 1
 		Total = Total + N ^ Max
-		Limit = Total >= 0x10FFFF
+		Limit = Total >= 255
 	until Limit
 
 	Max = Max - 1
