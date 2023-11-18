@@ -1,5 +1,4 @@
 ```lua
-
 local net = nn.new({2, 64, 1}, 1, 0.1) -- layers, learning rate, threshold
 
 print(net)
@@ -25,3 +24,5 @@ print("{1, 1}", "{" .. table.concat(net.predict({1, 1}), ", ") .. "}")
 
 print(#net.export())
 ```
+
+(trash)
